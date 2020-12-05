@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Поиск аудио в ВК",
+  "short_name": "Поиск аудио в ВК",
+  "description": "С помощью этого расширения можно в один клик найти интересующую вас аудиозапись в ВК.",
+  "version": "1.0",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"
+  ],
+"browser_action": {
+   "default_icon": "assets/search.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
